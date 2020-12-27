@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><img src="./capri21.svg" alt="Capri 21" /></h1>
+      </nav>
+      <p>Throw back a throwback.</p>
+    </header>
+
+    <main>
+      <div class="section">
+        <img src="./header.png" alt="Four Capri 21 flavors." class="header-img"/>
+        <p>Drink like you're<br/>a kid again.</p>
+      </div>
+    </main>
+
+    <style>
+      html {
+        font-family: Verdana, sans-serif;
+      }
+
+      html, body, h1, p {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        padding: 1rem;
+        background: linear-gradient(170deg, #024487, #41b9fa);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+      }
+
+      header img {
+        width: 24rem;
+      }
+
+      header p {
+        font-size: 1.25rem;
+        font-style: italic;
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(157deg, #f5ab3a, #3cf2e6);
+      }
+
+      .header-img {
+        height: 366px;
+        width: 658px;
+      }
+      
+      .section p {
+        margin: 2rem;
+        font-size: 2rem;
+      }
+
+      @media screen and (max-width: 1024px) {
+        header img {
+          width: 17rem;
+        }
+
+        .header-img {
+          width: auto;
+          height: auto;
+          margin: auto;
+          max-width: 100%;
+        }
+
+        .section {
+          flex-direction: column;
+        }
+        
+        .section p {
+          text-align: center;
+        }
+      }
+    </style>
+  </body>
+</html>
+
